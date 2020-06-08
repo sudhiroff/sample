@@ -10,7 +10,6 @@ export class LayoutComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-   /// $("#hdSec").css("visibility","visible");
-    document.getElementById("hdSec").style.visibility="visible"
+   
   }
 }

@@ -1,110 +1,19 @@
 <section class="page-section bg-light" id="portfolio">
-    <div class="container">
+    <div class="container container-sm">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Product & Solutions</h2>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-sm-6 mb-3">
+            <div class="col-lg-3 col-sm-6 col-6 mb-3" *ngFor="let item of products">
                 <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
-                        ><div class="portfolio-hover">
+                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
                             <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/01-thumbnail.jpg" alt=""
+                        <img class="img-fluid" src="assets/assets/img/portfolio/{{item.image}}" alt=""
                     /></a>
                     <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">CONCRETE ADMIXTURE</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-3">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/02-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">CURING COMPUND</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-3">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/03-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">WATER PROOFING SOLUTION</div>
-                   </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-3 mb-lg-0">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/04-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Lines</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/05-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Southwest</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-3">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/06-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Window</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/05-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Southwest</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mb-3 mb-sm-0">
-                <div class="portfolio-item">
-                    <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
-                        ><div class="portfolio-hover">
-                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/assets/img/portfolio/05-thumbnail.jpg" alt=""
-                    /></a>
-                    <div class="portfolio-caption">
-                        <div class="portfolio-caption-heading">Southwest</div>
+                        <div class="portfolio-caption-heading">{{item.text}}</div>
                     </div>
                 </div>
             </div>

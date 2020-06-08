@@ -11,6 +11,9 @@ import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
 import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ProductsComponent } from './products/products.component';
+import { ClientsComponent } from './clients/clients.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { GoogleMapComponent } from './google-map/google-map.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ProductsComponent } from './products/products.component';
     WhoWeAreComponent,
     WhatWeDoComponent,
     ContactUsComponent,
-    ProductsComponent
+    ProductsComponent,
+    ClientsComponent,
+    TestimonialComponent,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,

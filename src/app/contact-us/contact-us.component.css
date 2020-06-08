@@ -1,0 +1,8 @@
+.main-bg{
+    background-image: url('src/assets/assets/img/slide_bg.jpeg');
+    padding: 3rem 0;
+    background-position: 50% 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

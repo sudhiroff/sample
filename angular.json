@@ -25,12 +25,15 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/ui/css/styles.css"
+              "src/assets/ui/css/styles.css",
+              "src/assets/ui/css/all.css",
+              "src/assets/ui/css/owl.carousel.min.css"
             ],
             "scripts": [
               "src/assets/ui/js/jquery.min.js",
               "src/assets/ui/js/bootstrap.bundle.min.js",
-              "src/assets/ui/js/jquery.easing.min.js"
+              "src/assets/ui/js/jquery.easing.min.js",
+              "src/assets/ui/js/owl.carousel.js"
             ]
           },
           "configurations": {
