@@ -14,6 +14,9 @@ import { ProductsComponent } from './products/products.component';
 import { ClientsComponent } from './clients/clients.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { GoogleMapComponent } from './google-map/google-map.component';
+import { InnerLayoutComponent } from './inner-layout/inner-layout.component';
+import { ServicesComponent } from './services/services.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { GoogleMapComponent } from './google-map/google-map.component';
     ProductsComponent,
     ClientsComponent,
     TestimonialComponent,
-    GoogleMapComponent
+    GoogleMapComponent,
+    InnerLayoutComponent,
+    ServicesComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
