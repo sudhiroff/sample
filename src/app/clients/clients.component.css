@@ -7,3 +7,51 @@
     font-size: 35px;
     color: #000;
 }
+
+.client{
+    width: 177px;
+    height: 130px;
+    background: url(src/assets/assets/img/logo-canvas-2.png);
+}
+
+.cl1{
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+.cl2{
+    background-position-x: 346px;
+    background-position-y: 0px;
+}
+
+.cl3{
+    background-position-x: 181px;
+    background-position-y: 0px;
+}
+.cl4{
+    background-position-x: 0px;
+    background-position-y: 134px;
+}
+.cl5{
+    background-position-x: 0px;
+    background-position-y: 253px;
+}
+.cl6{
+    background-position-x: 0px;
+    background-position-y: 371px;
+}
+.cl7{
+    background-position-x: 181px;
+    background-position-y: 371px;
+}
+.cl8{
+    background-position-x: 347px;
+    background-position-y: 371px;
+}
+.cl9{
+    background-position-x: 696px;
+    background-position-y: 253px;
+}
+.cl10{
+    background-position-x: 862px;
+    background-position-y: 253px;
+}

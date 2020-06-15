@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-products',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
+  @Input() paging=true;
   public products:Array<any>=[
     {image:"01-thumbnail.jpg",text:"CONCRETE ADMIXTURE"},
     {image:"02-thumbnail.jpg",text:"CURING COMPUND"},

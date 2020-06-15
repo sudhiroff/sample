@@ -1,12 +1,80 @@
+.nav-tabs{
+  border: none;
+}
+.nav-tabs a{
+  border-radius: 0px;
+  padding: 12px 60px;
+  color: #fff;
+  background: #000;
+}
+.nav-tabs a.active{
+  background: linear-gradient(10deg, #212529);
+}
+
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   border: none;
-  border-bottom: 1px solid #ddd;
-  border-right: 5px solid #FDC600;
 }
 
 .nav-tabs .nav-link,
 .nav-tabs .nav-item.show .nav-link {
-  border: none;
-  border-bottom: 1px solid #ddd;
+}
+
+
+.product-container{
+  box-shadow:-1.8px 3.6px 35.3px 2.7px rgba(0,0,0,.11);
+  background-color: #fff;
+  margin-top: -170px;
+  position: relative;
+}
+.tab-content{
+  padding-top:65px;
+}
+.product-strip{
+  background-color: #fdc600;
+    height: 60px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0px;
+    width: 75%;
+    z-index: 1000;
+    left: 25%;
+    padding: 15px;
+}
+.mb-0 button:focus{
+  box-shadow: none;
+}
+.mb-0 button{
+  color:#666;
+  font-size: 20px;
+  font-weight: bold;
+}
+.mb-0 button:hover{
+  text-decoration: none;
+}
+.card-header{
+  padding: 7px 1.25rem;
+}
+.card-body ul li a{
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+}
+.card-body ul li a:hover{
+  color: #000;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: none;
+}
+.list{
+  clear: both;
+  list-style: none;
+  padding: 0px;
+  margin-left: 15px;
+}
+.list i{
+  text-align: right;
+  font-size: 12px;
+  float: right;
+  color: #666;
 }

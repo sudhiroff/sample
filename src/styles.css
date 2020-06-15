@@ -71,3 +71,20 @@
 .page-section h2.section-heading {
   font-size: 1.5rem;
 }
+.texture{
+  background: url(src/assets/assets/img/texture.jpg);
+  height: 270px;
+  width: 100%;     
+  margin-top: -15px;
+}
+
+.inner-sec{
+  box-shadow:-1.8px 3.6px 35.3px 2.7px rgba(0,0,0,.11);
+  background-color: #fff;
+  margin-top: -170px;
+  position: relative;
+  padding-top: 20px;
+}
+.inner-sec p{
+  line-height: 18px;
+}

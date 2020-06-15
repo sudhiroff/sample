@@ -11,7 +11,7 @@ export class GoogleMapComponent implements OnInit {
   @Input() height;
   safeSrc: SafeResourceUrl;
   constructor(private sanitizer: DomSanitizer) { 
-    this.safeSrc =  this.sanitizer.bypassSecurityTrustResourceUrl("https://maps.google.com/maps?width=520&height=400&hl=en&q=gurjar%20bhawan%20%20kotla%20mayur%20vihar%20phase%201%20delhi%20Delhi+(Gurjar%20Bhawan)&t=&z=16&ie=UTF8&iwloc=B&output=embed");
+    this.safeSrc =  this.sanitizer.bypassSecurityTrustResourceUrl("https://maps.google.com/maps?q=Buildrock%20Construction%20Chemicals%20Binola%2C%20Haryana%20122413&t=&z=13&ie=UTF8&iwloc=&output=embed");
   }
 
   ngOnInit(): void {

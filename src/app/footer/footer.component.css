@@ -1,10 +1,43 @@
 .footer-top{
-    color: #fff;;
+    color:#fdfdfd;;
 }
 .footer-top p{
-  line-height: 14px;
+  line-height: 17px;
 }
-
+.footer-top h3{
+  font-size: 22px;
+}
+.footer-top h4{
+  font-size: 17px;
+}
 .footer-top strong{
     font-size:17px;
 }
+
+.footer-contact{
+  text-align: left;
+}
+.footer-contact h3{
+font-size: 22px;
+}
+.footer-contact p ul{
+  line-height: 17px!important;
+}
+.footer-contact ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-contact ul i{
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.ft-center ul{
+  padding: 0px;
+  margin-left: 20px;
+}
+.ft-center ul a{
+  color: #ddd;
+}
+
