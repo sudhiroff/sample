@@ -1,57 +1,70 @@
-.arrow{
-    font-size: 35px;
-    color: #666;
-    transition: 0.3s;
-}
-.arrow:hover{
-    font-size: 35px;
-    color: #000;
+.section-heading {
+  font-size: 20px;
 }
 
-.client{
-    width: 177px;
-    height: 130px;
-    background: url(src/assets/assets/img/logo-canvas-2.png);
+.arrow {
+  font-size: 35px;
+  color: #666;
+  transition: 0.3s;
 }
 
-.cl1{
-    background-position-x: 0px;
-    background-position-y: 0px;
-}
-.cl2{
-    background-position-x: 346px;
-    background-position-y: 0px;
+.arrow:hover {
+  font-size: 35px;
+  color: #000;
 }
 
-.cl3{
-    background-position-x: 181px;
-    background-position-y: 0px;
+.client {
+  width: 177px;
+  height: 130px;
+  background: url(src/assets/assets/img/logo-canvas-2.png);
 }
-.cl4{
-    background-position-x: 0px;
-    background-position-y: 134px;
+
+.cl1 {
+  background-position-x: 0px;
+  background-position-y: 0px;
 }
-.cl5{
-    background-position-x: 0px;
-    background-position-y: 253px;
+
+.cl2 {
+  background-position-x: 346px;
+  background-position-y: 0px;
 }
-.cl6{
-    background-position-x: 0px;
-    background-position-y: 371px;
+
+.cl3 {
+  background-position-x: 181px;
+  background-position-y: 0px;
 }
-.cl7{
-    background-position-x: 181px;
-    background-position-y: 371px;
+
+.cl4 {
+  background-position-x: 0px;
+  background-position-y: 134px;
 }
-.cl8{
-    background-position-x: 347px;
-    background-position-y: 371px;
+
+.cl5 {
+  background-position-x: 0px;
+  background-position-y: 253px;
 }
-.cl9{
-    background-position-x: 696px;
-    background-position-y: 253px;
+
+.cl6 {
+  background-position-x: 0px;
+  background-position-y: 371px;
 }
-.cl10{
-    background-position-x: 862px;
-    background-position-y: 253px;
+
+.cl7 {
+  background-position-x: 181px;
+  background-position-y: 371px;
+}
+
+.cl8 {
+  background-position-x: 347px;
+  background-position-y: 371px;
+}
+
+.cl9 {
+  background-position-x: 696px;
+  background-position-y: 253px;
+}
+
+.cl10 {
+  background-position-x: 862px;
+  background-position-y: 253px;
 }

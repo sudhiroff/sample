@@ -1,17 +1,21 @@
 <div class="row">
   <div class="col-lg-3 col-sm-6 col-6 mb-3" *ngFor="let item of products;let i=index">
-    <div class="portfolio-item">
-      <a class="portfolio-link" routerLink="/what-we-do/products/detail/{{i}}">
-        <!-- <div class="portfolio-hover">
+    <div class="portfolio-item item" [ngClass]="{'home': paging==false}">
+      <!-- <a class="portfolio-link"> -->
+      <!-- <div class="portfolio-hover">
           <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
         </div> -->
-        <img class="img-fluid" src="assets/assets/img/portfolio/{{item.image}}" alt="" />
-      </a>
-      <div class="portfolio-caption">
-        <div class="portfolio-caption-heading">{{item.text}}</div>
+      <img class="img-fluid" src="assets/assets/img/products/{{item.image}}" alt="" />
+      <!-- </a> -->
+      <div class="portfolio-caption item-des">
+        <div class="portfolio-caption-heading">{{item.text}}
+          <div class="jm-item-button"><a routerLink="/what-we-do/products/detail/{{i}}">View</a></div>
+        </div>
       </div>
     </div>
   </div>
+</div>
+<div class="row">
   <nav aria-label="Page navigation example" *ngIf="paging">
     <ul class="pagination">
       <li class="page-item"><a class="page-link" href="javascript:">Previous</a></li>

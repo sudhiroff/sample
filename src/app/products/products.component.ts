@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-products',
@@ -6,20 +7,29 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
-  @Input() paging=true;
-  public products:Array<any>=[
-    {image:"01-thumbnail.jpg",text:"CONCRETE ADMIXTURE"},
-    {image:"02-thumbnail.jpg",text:"CURING COMPUND"},
-    {image:"03-thumbnail.jpg",text:"WATER PROOFING SOLUTION"},
-    {image:"04-thumbnail.jpg",text:"MICROSILICA"},
-    {image:"05-thumbnail.jpg",text:"SELEANTS AND ADDITIVES"},
-    {image:"06-thumbnail.jpg",text:"COOL ROOF SOLUTION"},
-    {image:"03-thumbnail.jpg",text:"MOULD RELEASE AGENT"},
-    {image:"01-thumbnail.jpg",text:"M-SAND"}
+  @Input() paging = true;
+  public products: Array<any> = [
+    { image: "Buildrock PC-01.png", text: "CONCRETE ADMIXTURE" },
+    { image: "Buildrock PC-02.png", text: "CURING COMPUND" },
+    { image: "Buildrock PC-03.png", text: "WATER PROOFING SOLUTION" },
+    { image: "Buildrock PC-04.png", text: "MICROSILICA" },
+    { image: "Buildrock PC-05.png", text: "SELEANTS AND ADDITIVES" },
+    { image: "Buildrock PC-06.png", text: "COOL ROOF SOLUTION" },
+    { image: "Buildrock PC-07.png", text: "MOULD RELEASE AGENT" },
+    { image: "Buildrock PC-08.png", text: "M-SAND" },
+    { image: "Buildrock PC-09.png", text: "CONCRETE ADMIXTURE" },
+    { image: "Buildrock PC-10.png", text: "CURING COMPUND" },
+    { image: "Buildrock PC-11.png", text: "WATER PROOFING SOLUTION" },
+    { image: "Buildrock PC-12.png", text: "MICROSILICA" },
+    { image: "Buildrock PC-13.png", text: "SELEANTS AND ADDITIVES" },
+    { image: "Buildrock PC-14.png", text: "COOL ROOF SOLUTION" }
   ]
   constructor() { }
 
   ngOnInit(): void {
+    if (this.paging == false) {
+      this.products = this.products.slice(0, 8);
+    }
   }
 
 }

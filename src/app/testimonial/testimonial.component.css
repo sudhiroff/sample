@@ -1,10 +1,18 @@
-.testimonial{
-    background-color: #000;
+.testimonial {
+  background-color: #000;
 }
 
-.custom-media{
-    background: #fdc600;
-    color: #333;
-    padding: 20px 10px;
-    border-radius: 5px;
+.custom-media {
+  background: #fdc600;
+  color: #333;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+#team {
+  padding: 10px 0px;
+}
+
+.section-heading {
+  font-size: 20px;
 }

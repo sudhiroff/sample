@@ -1,10 +1,10 @@
-<section class="page-section testimonial" id="team" style="padding: 4rem 0;">
+<section class="page-section testimonial" id="team">
   <div class="container">
-    <div class="text-center">
+    <div class="text-left">
       <h3 class="section-heading text-uppercase" style="color: #fff;">Testimonials</h3>
     </div>
     <div class="row">
-      <div class="col-md-6 col-lg-6">
+      <div class="col-md-6 col-lg-6" *ngFor="let item of data">
         <div class="media custom-media">
           <div class="media-left media-middle">
             <a href="#">
@@ -19,35 +19,8 @@
             </a>
           </div>
           <div class="media-body" style="padding-left: 20px;">
-            <h4 class="media-heading">Rajesh Yadav</h4>
-            <p>Irrespective of limited experience, Buildrock surprised us by facilitating innovative solutions
-              that proved apt for our requirements. The hidden creativity in them has the power to
-              bring a positive change in the functioning of the construction industry and the production
-              of admixtures. Their wide range of products in addition to their tailor-made solutions and
-              all that at competitive pricing without compromising the quality
-              will not let anyone go elsewhere. </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-6">
-        <div class="media custom-media">
-          <div class="media-left media-middle">
-            <a href="#">
-              <div style="background-color: #fff;
-              width: 100px;
-              height: 100px;
-              border-radius: 50px;
-              padding: 0px 0px 0px 2px;">
-                <i class="fas fa-user-circle" style="font-size: 100px;"></i>
-              </div>
-            </a>
-          </div>
-          <div class="media-body" style="padding-left: 20px;">
-            <h4 class="media-heading">Sanjeev Sharma</h4>
-            <p>The functional constructive solutions offered by Buildrock amazingly increased the speed of our job.
-              They lived up to their claims of high-quality products, technical support,
-              prompt service, the timely accomplishment of the target. Looking forward to joining hands
-              with them in our upcoming projects too.</p>
+            <h4 class="media-heading">{{item['title']}}</h4>
+            <p>{{ checkContent(item['description'])}} </p>
           </div>
         </div>
       </div>
