@@ -1,0 +1,16 @@
+<div class="row text-center">
+<div class="col-md-3 col-6 item-box" *ngFor="let item of items">
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+        <div class="flipper">
+            <div class="front">
+                <img src="{{item.image}}" style="width:74%" alt="">
+            </div>
+            <div class="back">
+                <p>
+                    {{item['description']}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

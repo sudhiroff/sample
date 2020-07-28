@@ -11,10 +11,19 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto" (click)="url_click()">
         <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]="['']">Home</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]="['/who-we-are']">WHO WE ARE</a></li>
+        <li class="nav-item dropdown subM" ><a class="nav-link js-scroll-trigger">
+          WHO WE ARE</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" routerLink="/about-buildrock">ABOUT BUILDROCK</a>
+            <a class="dropdown-item" routerLink="/quality-assurance">QUALITY ASSURANCE </a>
+          </div>
+        </li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]="['/what-we-do']">WHAT WE DO</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" [routerLink]="['/contact-us']">CONTACT US</a></li>
       </ul>
+      
     </div>
+   
   </div>
+  <!-- <app-menu></app-menu> -->
 </nav>

@@ -4,7 +4,7 @@
 }
 
 .slogo {
-  background-image: url('src/assets/assets/img/sl_bg.png');
+  background-color: rgb(253, 198, 0);
   padding: 3rem 0;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -67,15 +67,19 @@
   font-weight: normal;
   margin-bottom: 0;
 }
+.page-section {
+  padding: 0rem 0!important;
+}
 
 .page-section h2.section-heading {
   font-size: 1.5rem;
 }
 .texture{
-  background: url(src/assets/assets/img/texture.jpg);
-  height: 270px;
+  background: url(src/assets/assets/img/banner_notext.jpeg);
+  height: 370px;
   width: 100%;     
   margin-top: -15px;
+  background-position: 0px -513px;
 }
 
 .inner-sec{
@@ -88,3 +92,5 @@
 .inner-sec p{
   line-height: 18px;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

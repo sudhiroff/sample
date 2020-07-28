@@ -1,0 +1,70 @@
+.item {
+  position: relative;
+}
+.portfolio-caption-heading{
+  font-size: 16px!important;
+  padding-right: 30px;
+}
+
+.item .item-des {
+  padding: 0px 5px !important;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top:80%;
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: rgb(68,66,66,0.8);
+  background: radial-gradient(circle, rgba(68,66,66,1) 0%, rgba(7,7,8,.9) 100%);
+  color: #fff;
+  visibility: visible;
+  -webkit-transition: all 0.5s ease-in 0s;
+  -moz-transition: all 0.5s ease-in 0s;
+  -o-transition: all 0.5s ease-in 0s
+}
+
+.home:hover .item-des {
+  top: 80% !important;
+  background: rgb(68,66,66,0.8);
+  background: radial-gradient(circle, rgba(68,66,66,1) 0%, rgba(7,7,8,1) 100%);
+}
+
+
+.item:hover .item-des {
+  top: 80%;
+  background: rgb(68,66,66,0.8);
+  background: radial-gradient(circle, rgba(68,66,66,1) 0%, rgba(7,7,8,1) 100%);
+}
+
+.jm-item-button {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  left: 96%;
+  margin-left: -25px;
+  bottom: 5px;
+}
+
+.jm-item-button a {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #FDC600;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 50px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  text-decoration: none !important;
+  display: block;
+}
+
+.jm-item-button a:hover {
+  background: #3b3b3b;
+}

@@ -1,0 +1,16 @@
+.dropdown-menu{
+    border-radius: 0px;
+    background: #151414;
+    top:96%;
+}
+
+.subM:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-item{
+    color: #fff;
+}
+.dropdown-item:hover{
+    background-color: dimgray;
+}

@@ -30,8 +30,8 @@ p {
   left: -7px;
   border-radius: 10px;
   content: '';
-  border: 2px solid #FFF;
-  background: #FFF;
+  border: 2px solid #FDC600;
+  background: #000;
 }
 
 /* .timeline-item:last-child {
@@ -40,4 +40,13 @@ p {
 			$border-color 60%,
 			rgba($border-color, 0)) 1 100%
 		;
-	} */
+  } */
+  .about-us p{
+    font-size: 13px!important;
+  }
+.section-heading{
+  font-size: 15px;
+}
+strong{
+  font-size: 13px;
+}

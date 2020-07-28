@@ -1,5 +1,5 @@
 .forum {
-  background-color: #FFC400;
+  background-color: #ffc400;
   padding: 40px 0px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 29.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
@@ -35,4 +35,16 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+@media (max-width: 576px) {
+  header.masthead {
+    padding-top: 200px;
+    background-image: url("src/assets/assets/img/slide_bg.jpeg");
+    background-position: 0px 50px;
+    background-size: cover;
+  }
+  header.masthead img {
+    width: 350px;
+    padding-bottom: 100px;
+  }
 }

@@ -1,0 +1,41 @@
+.timeline-item {
+  padding: 6px 0px 10px 15px;
+  position: relative;
+  color: #000;
+  border-left: 2px solid #fdc600;
+}
+p {
+  font-size: 1rem;
+}
+.timeline-item::after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 1em;
+  position: absolute;
+  left: -7px;
+  border-radius: 10px;
+  content: "";
+  border: 2px solid #fdc600;
+  background: #000;
+}
+.about-us p {
+  font-size: 13px !important;
+}
+.section-heading {
+  font-size: 15px;
+}
+strong {
+  font-size: 13px;
+}
+ul li,
+span {
+  font-size: 13px;
+}
+p {
+  margin-bottom: 3px !important;
+}
+h5 {
+  font-size: 14px;
+  margin: 0px;
+}

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-lg-3 col-sm-6 col-6 mb-3" *ngFor="let item of data;let i=index">
+      <div class="portfolio-item">
+        <a class="portfolio-link" routerLink="/what-we-do/products">
+          <!-- <div class="portfolio-hover">
+            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+          </div> -->
+          <img class="img-fluid" src="http://buildrock.co.in/admin_rock/gallery/{{item.Image}}" alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <div class="portfolio-caption-heading">{{item.Title}}</div>
+        </div>
+      </div>
+    </div>
+  </div>

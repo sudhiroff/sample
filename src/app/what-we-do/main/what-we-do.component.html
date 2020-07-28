@@ -1,0 +1,58 @@
+<section class="page-section bg-white">
+  <div class="texture">    
+  </div>
+  <div class="container container-sm product-container"> 
+    <div class="product-strip">
+       <h4 class="d-inline">{{type}} <i class="fas fa fa-angle-double-right"></i></h4><h5 class="d-inline">&nbsp;&nbsp;{{category}}</h5>
+    </div>  
+    <div class="row">
+      <div class="col-xl-3" style="padding: 0px;">
+        <div class="accordion" id="accordionExample">
+          <div class="card" style="border-radius: 0px!important;">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" (click)="click_category('Product')" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Products
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul class="list" (click)="click_type($event,'Product')">
+                  <li *ngFor="let i of data"><a href="javscript:">{{i.Title}}</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="border-radius: 0px!important;">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" (click)="click_category('Services')" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Services
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <ul class="list" (click)="click_type($event,'Services')">
+                  <li *ngFor="let i of service"><a href="javscript:">{{i.Title}}</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-9" style="background: #fcfcfc;">        
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <router-outlet></router-outlet>            
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <app-services></app-services>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

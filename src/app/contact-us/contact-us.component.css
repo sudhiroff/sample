@@ -1,8 +1,54 @@
 .main-bg{
-    background-image: url('src/assets/assets/img/slide_bg.jpeg');
+    background-image: url('src/assets/assets/img/banner_notext.jpeg');
     padding: 3rem 0;
     background-position: 50% 1%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.texture_contact{
+    background: url(src/assets/assets/img/banner_notext.jpeg);
+    height: 370px;
+    width: 100%;     
+    margin-top: -15px;
+    background-position: 0px -513px;
+  }
+
+.looking-panel {
+    list-style-type:none;
+    margin-left: 5px;
+    padding: 0px;
+}
+.looking-panel ul li{
+    list-style:none;
+}
+.left-box-shadow{
+    box-shadow: -10px -6px 4px -8px #efefef;
+}
+.looking{
+    font-size: 13px;
+}
+/* .team::after {
+    clear: both;
+}
+.team div{
+    float: left;
+} */
+.form-group{
+    margin-bottom: 5px;
+}
+.form-control{
+    height: 27px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.lower-panel{
+    box-shadow: -9px -12px 9px -8px #efefef
+}
+.contact-about{
+    padding-top: 10px;
+    font-size: 14px;
 }

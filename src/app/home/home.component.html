@@ -1,33 +1,30 @@
 <!-- Masthead-->
 <header class="masthead">
-  <div class="container">
+  <!-- <div class="container">
     <div class="masthead-subheading"></div>
     <div class="masthead-heading text-uppercase" style="height: 235px;"></div>
     <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-  </div>
+  </div> -->
+   <div class="d-block d-sm-none">
+     <img src="assets/assets/img/banner_text.png" alt="">
+   </div>
+   <a class="btn btn-primary btn-lg text-uppercase js-scroll-trigger">Tell Me More</a>
 </header>
 
 <!-- Services-->
 
 <section class="slogo">
-  <div class="overlay" style="opacity: 0.9; background-color: rgb(253, 198, 0);"></div>
   <div class="container">
-    <div class="row text-center">
-      <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x"
-            style="color: #149DCC;"></i><i class="fas fa-bell fa-stack-1x fa-inverse"></i></span>
-        <h4 class="my-3">VALUE-ADDED<br> SOLUTIONS</h4>
-      </div>
-      <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x"
-            style="color: #149DCC;"></i><i class="fas fa-globe fa-stack-1x fa-inverse"></i></span>
-        <h4 class="my-3">SUSTAINABLE<br> DEVELOPMENT </h4>
-      </div>
-      <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x"
-            style="color: #149DCC;"></i><i class="fas fa-info-circle fa-stack-1x fa-inverse"></i></span>
-        <h4 class="my-3">ALWAYS BETTER<br> THAN THE BEST</h4>
-      </div>
+    <div class="text-left">
+      <h3 class="section-heading text-uppercase">{{whyChooseUs['title']}}</h3>
     </div>
-  </div>
+      <app-choose-us></app-choose-us>        
+    </div> 
 </section>
+<!-- <section>
+  some
+   <img src="assets/assets/img/usp.png" alt="">
+</section> -->
 <!-- Portfolio Grid-->
 <section class="page-section bg-light" id="portfolio">
   <div class="container container-sm">
@@ -47,26 +44,7 @@
     <div class="text-left">
       <h3 class="section-heading text-uppercase">INSIGHT FORUM</h3>
     </div>
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-        <div class="portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <img class="img-fluid" src="assets/assets/img/portfolio/05-thumbnail.jpg" alt="" /></a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <img class="img-fluid" src="assets/assets/img/portfolio/06-thumbnail.jpg" alt="" /></a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <img class="img-fluid" src="assets/assets/img/portfolio/06-thumbnail.jpg" alt="" /></a>
-        </div>
-      </div>
-    </div>
+    <app-forum></app-forum>
   </div>
 
 </section>

@@ -1,0 +1,34 @@
+<div class="row">
+  <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+      <div class="portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+          <img class="img-fluid" src="assets/assets/img/portfolio/05-thumbnail.jpg" alt="" /></a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <div class="portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <img class="img-fluid" src="assets/assets/img/portfolio/06-thumbnail.jpg" alt="" /></a>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6">
+      <div class="portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <img class="img-fluid" src="assets/assets/img/portfolio/06-thumbnail.jpg" alt="" /></a>
+      </div>
+    </div> -->
+  <div class="col-12">
+    <div class="splide sliderF">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide" *ngFor="let item of data; let i = index;">
+            <div class="portfolio-item">
+              <a class="portfolio-link" routerLink="forum/{{item.url}}">
+                <img class="img-fluid" src="{{item.image}}" alt="" /></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
